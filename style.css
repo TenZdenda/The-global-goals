@@ -1,0 +1,122 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 2.5em;
+	margin-bottom: 25px;
+}
+
+h3 {
+	font-size: 1.5em;
+	margin-bottom: 25px;
+}
+
+ul {
+	padding: 0;
+}
+
+/* Navbar */
+
+.navbar-height {
+	min-height: 10vh;
+}
+
+.navbar-brand {
+	text-transform: uppercase;
+}
+
+.nav-link {
+	color: #ffffff !important;
+	margin-right: 35px;
+	font-weight: 400;
+}
+
+.nav-link:hover {
+	color: rgb(255, 91, 91) !important;
+}
+
+/* Video */
+
+.video {
+	width: 100%;
+	height: calc(100vh - 10vh);
+}
+
+video {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+/* About us */
+
+.about-us {
+	height: 100vh;
+}
+
+.center{
+	display: flex;
+	place-items: center;
+}
+
+.center img {
+	margin-top: 10%;
+	max-width: 100%;
+	height: auto;
+}
+
+.about__us__content {
+	width: 100%;
+}
+
+.about__us__content p{
+	width: 90%;
+	display: block;
+	text-align: justify;
+	font-weight: 500;
+	line-height: 25px;
+}
+
+/* Goals */
+
+.goals a img {
+	width: 100%;
+	height: auto;
+}
+
+.col-6 {
+	margin-bottom: 25px;
+}
+
+/* Footer */
+
+footer {
+	background: #000000;
+	margin-top: 50px;
+}
+
+.tags li{
+	display: inline;
+	background: red;
+	color: white;
+	padding: 5px 10px;
+	margin-right: 15px;
+}
+
+.social-media li {
+	display: inline;
+	margin-right: 25px;
+}
+
+.social-media li img {
+	width: 50px;
+}
+
+.icon {
+	width: 24px;
+	height: 24px;
+}
